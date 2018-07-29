@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tts.fragment.PuzzleTwoFragment">
+
+    <include
+        android:id="@+id/puzzle_two_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/item_view_board_key" />
+
+    <com.gmail.tylerfilla.widget.panview.PanView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/puzzle_two_key"
+        android:scrollbarSize="4dp">
+
+        <TableLayout
+            android:id="@+id/puzzle_two_board"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:theme="@style/AppTheme.TTSBox">
+
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_1a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="5"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_2a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_2b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_2c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_2d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_2e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_3a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_4a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_5a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_6a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="10"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_6b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_7a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="10"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_7b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="14"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_7c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="23"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_7d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="10"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="14"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="19"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_8h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="12"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="14"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="17"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="19"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9i"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="23"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_9j"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="10"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="12"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="14"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="17"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="19"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="23"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_10g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="10"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="17"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="19"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="23"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_11i"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_12a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="12"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_12b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="14"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_12c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="17"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_12d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="19"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_12e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_13a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="12"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_13b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="17"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_13c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="19"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_13d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="10"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14i"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14j"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_14k"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_15a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="12"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_15b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="17"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_15c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_16a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="12"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_16b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="2"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17i"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17j"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17k"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_17l"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_18a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_18b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_19a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_19b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="5"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_20g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_21a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="6"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_21b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_22a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    android:layout_column="3"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_23a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+            <TableRow>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24h"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24i"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24j"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24k"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24l"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/puzzle_two_tv_box_24m"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </TableRow>
+        </TableLayout>
+    </com.gmail.tylerfilla.widget.panview.PanView>
+</RelativeLayout>

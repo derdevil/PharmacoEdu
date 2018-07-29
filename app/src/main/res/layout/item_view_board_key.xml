@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/key_tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            tools:text="Penyakit  sendi karena tertimbunnya asam urat (purin)  terutama di sendi, ginjal dan kulit karena kegagalan metabolisme purin dalam tubuh" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:theme="@style/AppTheme.TTSBox">
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        tools:text="T"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_1g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/key_tv_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:textColor="#D32F2F"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ic_clear_red_24dp"
+                android:drawablePadding="4dp"
+                android:textAllCaps="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:theme="@style/AppTheme.TTSBox">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2a"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2b"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2c"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2d"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2f"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/tts_box_size"
+                    android:layout_height="@dimen/tts_box_size"
+                    android:layout_margin="1dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/key_tv_answer_2g"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/key_tv_check"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:gravity="center"
+                android:textColor="#ffeb3b"
+                android:textStyle="bold"
+                android:background="?android:attr/selectableItemBackground"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ic_check_green_24dp"
+                android:drawablePadding="4dp"
+                android:textAllCaps="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,1026 @@
+﻿<resources>
+    <string name="app_name">PHARMED</string>
+
+    <string name="title_listmateri">Daftar Materi</string>
+    <string name="title_tts">Teka-Teki Silang</string>
+    <string name="title_soalno">Soal No %1$s</string>
+    <string name="title_materi">Materi</string>
+    <string name="title_ujian">Ujian</string>
+    <string name="title_board">TTS #%1$d</string>
+
+    <string name="text_clear">Clear</string>
+    <string name="text_check">Check</string>
+    <string name="text_copyright">Copyright © 2018 by Shinta Septi K. D.
+                \nD-III Perekam Medis dan Informasi Kesehatan
+                \nPoltekkes Kemenkes Malang</string>
+
+    <string-array name="soal_ujian">
+        <item>Dibawa ini merupakan contoh obat dari mukolitik dan ekspektoran, kecuali</item>
+        <item>Kesulitan defekasi karena tinja mengeras, otot polos lumpuh dan gangguan refleks defekasi, disebut juga</item>
+        <item>Obat yang membantu untuk mengeluarkan dahak disebut</item>
+        <item>Golongan obat yang bekerjanya dengan cara melisiskan dahak yang kental disebut</item>
+        <item>Golongan obat yang bekerjanya dengan cara melisiskan dahak yang kental disebut</item>
+        <item>Furosemid adalah termasuk jenis obat</item>
+        <item>Nifedipin adalah termasuk golongan obat</item>
+        <item>Hasil pemeriksaan fisik pasien menunjukkan adanya gangguan pada irama jantung berupa kelainan pada frekuensi denyut jantung. Dokter memberikan pengobatan yang bertujuan untuk memperbaiki frekuensi dan irama pukulan jantung. Obat yang paling sesuai diberikan adalah obat</item>
+        <item>Seorang pasien menderita batuk berdahak, maka obat yang paling sesuai untuk pasien tersebut adalah</item>
+        <item>Tempat injeksi insulin yang sering dilakukan adalah</item>
+
+        <item>Kolagoga adalah</item>
+        <item>Di bawah ini adalah efek samping kalsium karbonat, kecuali</item>
+        <item>Di bawah ini adalah efek samping kalsium karbonat, kecuali</item>
+        <item>Kaolin dan pectin adalah obat antidiare termasuk kedalam golongan</item>
+        <item>Dibawah ini yang merupakan obat antihistamin adalah</item>
+        <item>Antasida dibagi menjadi dua yaitu</item>
+        <item>Omeprazole termasuk obat maag golongan</item>
+        <item>Natrium bikarbonat termasuk antasida</item>
+        <item>Obat yang termasuk kedalam golongan antagonis reseptor H 2 adalah</item>
+        <item>Obat di bawah ini adalah golongan obat yang digunakan untuk terapi hipertensi, kecuali</item>
+
+        <item>Obat yang membantu proses pencernaan disebut juga</item>
+        <item>Kaptopril adalah termasuk golongan obat</item>
+        <item>Pemilihan bintang tertentu untuk memproduksi insulin sebelum era 80an berdasarkan pertimbngan</item>
+        <item>Omeprazol adalah</item>
+        <item>Antibiotika digolongkan menjadi 2 (dua) golongan yaitu berdasarkan toksisitasnya dan luas aktifitas antibiotika tersebut. Berikut ini yang termasuk kedalam antibiotika golongan toksisitasnya mematikan kuman adalah</item>
+        <item>Pernyataan berikut ini yang menjelaskan tentang antibiotika berdasarkan luasnya aktifitas jenis narrow-spektrum adalah</item>
+        <item>Berikut ini yang bukan merupakan kelebihan dari pemberian antibiotika tunggal adalah sebagai berikut</item>
+        <item>Desinfektan adalah obat yang dapat membunuh kuman yang terdapat dalam benda. Berikut ini yang bukan merupakan contoh desinfektan adalah</item>
+        <item>Analgetik narkotik. selain bisa mengurangi rasa sakit, juga menekan rasa takut, rasa susah serta menimbulkan kedamaian sehingga sering disalahgunakan. Berikut ini yang merupakan contoh analgetik narkotik adalah</item>
+        <item>Golongan obat ini mempunyai sifat analgesik, antipiretik dan anti inflamasi adalah</item>
+
+        <item>Pernyataan berikut ini benar mengenai anastesi umum</item>
+        <item>Perilaku penderita tak sesuai  dg kenyataan, tak di mengerti “orang normal”. “orang normal” menyebutnya  “orang gila”. Gangguan ini disebut dengan</item>
+        <item>Situasi dimana aplikasi obat atau terapi tertentu tidak dianjurkan karena dapat meningkatkan resiko terhadap pasien tersebut</item>
+        <item>Yang dimaksud dengan efek samping obat adalah</item>
+        <item>Aspek farmakologi yang mencakup nasib obat dalam tubuh yang terdiri dari proses absorbsi, distribusi, metabolisme, dan ekskresi disebut dengan fase</item>
+        <item>Dibawah ini yang bukan termasuk rute penggunaan obat secara parenteral yaitu</item>
+        <item>Obat antimikroba harus memiliki toksisitas selektif, artinya</item>
+        <item>Dibawah ini adalah sebab kegagalan terapi antimikroba kecuali</item>
+        <item>Dibawah ini adalah antimikroba, kecuali</item>
+        <item>Nefidipin termasuk golongan obat</item>
+
+        <item>Yang termasuk turunan penisilin narrow spektrum adalah</item>
+        <item>Efek samping yang terjadi pada penggunaan kortikosteroid secara tidak tepat adalah, kecuali</item>
+        <item>Golongan tetrasiklin tidak boleh diminum bersama susu karena</item>
+        <item>Golongan obat pereda batuk sintetis dengan mekanisme kerja mirip kodein HCl</item>
+        <item>Obat yang cocok untuk mengatasi batuk produktif adalah</item>
+        <item>Derivat penisilin dengan kerja spektrum luas adalah</item>
+        <item>Antifungi yang termasuk golongan antibiotik</item>
+        <item>Antibiotik yang tidak boleh diberikan kepada anak usia dibawah 8 tahun karena dapat menyebabkan gigi bercak-bercak coklat dan mudah berlubang adalah</item>
+        <item>Cara pemberian obat yang memberikan efek lokal adalah</item>
+        <item>Salah satu tujuan plasebo adalah</item>
+
+        <item>Ilmu yang mempelajari obat disebut ....</item>
+        <item>Ilmu yg mempelajari tentang pengaruh obat terhadap tubuh disebut</item>
+        <item>Yang dibahas di farmakodinamik adalah, kecuali</item>
+        <item>Ilmu yang mempelajari tentang bagaimana obat diperlakukan oleh tubuh dikenal denngan sebutan</item>
+        <item>Dalam proses farmakokinetik dikenal dengan ilmu ADME, adme adalah absorpsi, distribusi, metabolisme, dan ekskresi. Proses penyerapan obat dari tempat pemberian ke jaringan targe disebut dengan ....</item>
+        <item>Pemberian obat dengan memasukkan lewat intravena termasuk </item>
+        <item>Dibawah ini yang termasuk pemberian obat secara topikal adalah</item>
+        <item>Dalam proses farmakokinetik dikenal dengan ilmu ADME, adme adalah absorpsi, distribusi, metabolisme, dan ekskresi. Proses biokimia yang merubah bentuk aslinya menjadi metabolit sehingga mudah diekskresikan disebut</item>
+        <item>Ilmu yang mempelajari penggunaan obat untuk mengobati penyakit atau gejalanya disebut</item>
+        <item>Cabang farmakologi yang mempelajari efek obat pada manusia.</item>
+
+        <item>Yang termasuk dalam obat bebas adalah</item>
+        <item>Obat yang penggunaannya dalam jumlah tertentu aman, tetapi bila terlalu banyak akan menimbulkan efek kurang baik disebut</item>
+        <item>Obat yang berbahaya, pemakainya harus diawasi dokter, untuk mendapatkannya memerlukan resep, hanya dapat diperoleh di apotek, puskesmas, balai pengobatan / poliklinik disebut</item>
+        <item>Berikut yang termasuk obat keras adalah</item>
+        <item>Berdasakan penamaan obat dibagi menjadi 2, obat generik dan obat paten. Yang termasuk obat generik adalah</item>
+        <item>Obat dg nama generik, nama resmi yang telah ditetapkan dalam Farmakope Indonesia dan INN (International Nonpropietary Names) dari WHO (World Health Organization) disebut</item>
+        <item>Jumlah terkecil yg dibutuhkan penderita untuk satu kali pemberian untuk mendapatkan efek terapi disebut</item>
+        <item>Jumlah terbesar dari rentangan obat yang masih aman diberikan kepada penderita dan belum menimbulkan gejala-gejala keracunan disebut</item>
+        <item>Dosis obat yang diberikan melebihi dosis terapeutik, sehingga dapat menyebabkan terjadinya keracunan obat disebut</item>
+        <item>Dosis yang menyebabkan kematian yang besarnya melebihi dosis toksik disebut</item>
+
+        <item>Perhtungan dosis obat menggunakan satuan</item>
+        <item>Dibawah ini merupakan faktor yang myebabkan perbedaan pemberian dosis obat, kecuali</item>
+        <item>Pemberian obat juga dipengaruhi oleh faktor psikologis. Beriku merupakan faktor psikologis kecuali</item>
+        <item>Suatu zat kimia yang berkhasiat dapat membasmi mikroba lain apabila digunakan dalam dosis tertentu, yang dihasilkan oleh bakteri ataupun jamur atau sintesa.</item>
+        <item>Pemberian antibiotik kombinasi untuk keadaan khusus ada risiko resistensi organisme misalnya pada penyakit</item>
+        <item>Pemberian obat berdasarkan luas aktifitasnya dibagi menjadi 2 yaitu Narrow-Spektrum dan Broad Spektrum. Berikut yang termasuk Narrow-Spektrum adalah</item>
+        <item>Obat penghilang rasa sakit disebut</item>
+        <item>Merupakan obat analgesik tertua. Contoh: Acetosal (Aspirin), salisilamid (Neozep)
+Titik tangkap kerja: hipothalamus dg cara meningkatkan ambang nyeri
+Juga berfungsi sebagai obat antipiretik, anti inflamasi dan anti allergi dan meningkatkan ekskresi asam urat. Uraian tersebut merupakan jenis analgesik
+</item>
+        <item>Yang merupakan analgesik non narkotik adalah</item>
+        <item>Anastesi yang digunakan pada pasien dengan tindakan sunat adalah</item>
+
+        <item>Gangguan jiwa yang menunjukkan adanya gangguan perasaan, pikiran, kemauan, dan motorik disebut....</item>
+        <item>Psikotropika dapat digolongkan ke dalam beberapa jenis. Yang tidak termasuk dalam golongan psikotropika adalah....</item>
+        <item>Berikut adalah ciri-ciri salah satu obat:
+\n•	8-24 jam efek maksimal
+\n•	Ekskresi melalui urin lambat
+\n•	Dosis terapi jarang menimbulkan kantuk
+\n•	Merangsang nafsu makan
+\n•	Sediaan 2 dan 5 mg, dosis lethal diatas 700 mg
+\n•	Adiksi dan toleransi bisa terjadi bila lama dan dosis besar
+\n\nKeterangan di atas adalah ciri-ciri dari obat....
+</item>
+        <item>Yang termasuk dalam antidepresi adalah....</item>
+        <item>Antikonvulsi yang pertama kali ditemukan adalah....</item>
+        <item>Pengobatan kausal, menghindari faktor pencetus, obat antikonvulasi. Keterangan tersebut adalah prinsip dari pengobatan....</item>
+        <item>Vitamin dibawah ini yang larut dalam air adalah....</item>
+        <item>Xerophtalmia dapat disebabkan karena kekurangan vitamin....</item>
+        <item>Riboflavin adalah nama lain dari vitamin....</item>
+        <item>Vitamin yang biasanya digunakan untuk kasus wanita hamil kurang gizi, emesis gravidarum dadn neuritis alkoholik adalah....</item>
+
+        <item>Asam mefenamat adalah termasuk analgetik perifer golongan....</item>
+        <item>Antifunfi yang termasuk golongan antibiotik adalah....</item>
+        <item>Omeprazole adalah antasida yang bekerja dengan cara....</item>
+        <item>Pada terapi penderita asma obat yang digunakan selain HCl ephedrine, aminofilin, bromheksin juga digunakan deksametason. Deksametason termasuk golongan obat....</item>
+        <item>Indikasi pemberian kortikosteroid adalah, kecuali....</item>
+        <item>Obat anti jamur aktivat imadizol adalah....</item>
+        <item>Golongan penisilin yang berspektrum luas adalah....</item>
+        <item>Obat antidiare yang bekerja menciutkan selaput usus adalah....</item>
+        <item>Golongan tetrasiklin yang bekerja Long Acting adalah....</item>
+        <item>Mekanisem obat yang bekerja secara kimia adalah....</item>
+    </string-array>
+    <string-array name="jwbn_ujian_a">
+        <item>Gliserilguaikolat</item>
+        <item>Obstipasi</item>
+        <item>Antihistamin</item>
+        <item>Ekspektoran</item>
+        <item>Ekspektoran</item>
+        <item>Antihistamin</item>
+        <item>Antasida</item>
+        <item>Antiaritmia</item>
+        <item>Dekstrometorfan</item>
+        <item>Leher</item>
+
+        <item>Zat atau obat yang digunakan sebagai peluruh atau penghancur batu empedu</item>
+        <item>Muntah</item>
+        <item>Muntah</item>
+        <item>Antispasmodika</item>
+        <item>Asetisetein</item>
+        <item>Duodenum dan gaster</item>
+        <item>Penguat/ pelindung mucosa lambung</item>
+        <item>Sistemik</item>
+        <item>Ranitidin</item>
+        <item>Simpatomimetik</item>
+
+        <item>Anti udem</item>
+        <item>Anti histamin</item>
+        <item>Kecerdasannya lebih tingggi dari hewan lainnya</item>
+        <item>Obat penurun gula darah</item>
+        <item>Penisilin</item>
+        <item>Bekerja pada banyak jenis kuman</item>
+        <item>Menurunkan resistensi organisme</item>
+        <item>Fenol (karbol, lisol)</item>
+        <item>Pethidine, codein</item>
+        <item>Pethidine, codein</item>
+
+        <item>Stadium 4 (paralisa medulla oblongata): nadi tak terukur, jantung stop, meninggal.</item>
+        <item>Ansietas</item>
+        <item>Indikasi</item>
+        <item>Situasi dimana aplikasi obat atau terapi tertentu tidak dianjurkan karena dapat meningkatkan resiko terhadap pasien</item>
+        <item>Biofarmasi</item>
+        <item>Intra vena</item>
+        <item>Bersifat sangat toksik terhadap mikroba tetapi tidak toksik untuk hospes</item>
+        <item>Dosis yang kurang</item>
+        <item>Siprofloksasin</item>
+        <item>Penghambat ACE</item>
+
+        <item>Ampisilin</item>
+        <item>Moonface</item>
+        <item>Susu banyak mengandung senyawa logam yang dapat menghambat ekskresinya</item>
+        <item>Dekstrometorphan</item>
+        <item>Oksolamin</item>
+        <item>Benzil penisilin</item>
+        <item>Asam salisilat</item>
+        <item>Tetrasiklin</item>
+        <item>Implantasi</item>
+        <item>Mencegah alergi</item>
+
+        <item>Farmakologi</item>
+        <item>Farmakodinamik</item>
+        <item>Efek terapi </item>
+        <item>Farmakodinamik</item>
+        <item>Absorpsi</item>
+        <item>Enteral</item>
+        <item>Paracetamol </item>
+        <item>Absorpsi</item>
+        <item>Farmakodinamik</item>
+        <item>Farmakodinamik</item>
+
+        <item>Ultraflu</item>
+        <item>Obat bebas</item>
+        <item>Obat bebas</item>
+        <item>Bodrex</item>
+        <item>Mylanta</item>
+        <item>Obat generik</item>
+        <item>Dosis maksimal</item>
+        <item>Dosis maksimal</item>
+        <item>Dosis maksimal</item>
+        <item>Dosis maksimal</item>
+
+        <item>Mg/kgbb</item>
+        <item>Berat badan</item>
+        <item>Efek plasebo</item>
+        <item>Obat</item>
+        <item>Sepsis</item>
+        <item>Streptomicin</item>
+        <item>Analgesik</item>
+        <item>Pyrazolon</item>
+        <item>HCl Hydromorphine</item>
+        <item>Anastesi topikal</item>
+
+        <item>Psikosis</item>
+        <item>Antipsikosis</item>
+        <item>CPZ</item>
+        <item>CPZ</item>
+        <item>CPZ</item>
+        <item>Diabetes mellitus</item>
+        <item>Vitamin A</item>
+        <item>Vitamin A</item>
+        <item>Vitamin B1</item>
+        <item>Vitamin B1</item>
+
+        <item>Antranilat</item>
+        <item>Asam salisilat</item>
+        <item>Menetralkan asam lambung</item>
+        <item>Antialergika</item>
+        <item>Terapi pengganti</item>
+        <item>Griseofulvin</item>
+        <item>Fenoksimetil penisilin</item>
+        <item>Norit</item>
+        <item>Supertetra</item>
+        <item>Analgetik</item>
+    </string-array>
+    <string-array name="jwbn_ujian_b">
+        <item>Difenhidramin HCL</item>
+        <item>Megakolon</item>
+        <item>Antibiotik</item>
+        <item>Antitusif</item>
+        <item>Antitusif</item>
+        <item>Digitalis</item>
+        <item>Penghambat ACE</item>
+        <item>Antihipertensi</item>
+        <item>Difenhidramin</item>
+        <item>Betis</item>
+
+        <item>Obat–obat atau zat-zat yang dapat mempercepat peristaltic usus sehingga mempermudah/ melancarkan buang air besar</item>
+        <item>Udem pretibial</item>
+        <item>Udem pretibial</item>
+        <item>Adsorbensia</item>
+        <item>Difenhidramin</item>
+        <item>Asli dan non asli</item>
+        <item>Analog prostaglandin</item>
+        <item>Alkalosis</item>
+        <item>Polixylane</item>
+        <item>Alpa bloker</item>
+
+        <item>Anti hipertensi</item>
+        <item>Penghambat ACE</item>
+        <item>Farmakokinetiknya sama</item>
+        <item>Obat anti aritmia</item>
+        <item>Sulfonamida</item>
+        <item>Penisilin bekerja pada kuman gram-negatif</item>
+        <item>Mengurangi toksisitas</item>
+        <item>Halogen (klorin)</item>
+        <item>Morphin, amoxilin</item>
+        <item>Morphin, amoxilin</item>
+
+        <item>Hilangnya rasa sakit tidak disertai hilangnya kesadaran</item>
+        <item>Psikopat</item>
+        <item>Kontraindikasi</item>
+        <item>Suatu reaksi yang tidak diharapkan dan berbahaya yang dikaitkan oleh suatu pengobatan</item>
+        <item>Biofarmasetik</item>
+        <item>Sub cutan</item>
+        <item>Tidak mahal dan tejangkau masyakarat</item>
+        <item>Masa terapi yang kurang</item>
+        <item>Amoksisilin</item>
+        <item>Antasida</item>
+
+        <item>Penisilin G</item>
+        <item>Hipotensi</item>
+        <item>Susu banyak mengandung senyawa logam yang dapat menurunkan metabolisnya</item>
+        <item>Difenhidramin</item>
+        <item>Destrometorpan</item>
+        <item>Ampisilin</item>
+        <item>Nistatin</item>
+        <item>Kloramfenikol</item>
+        <item>Transdermal</item>
+        <item>Mencegah toleransi</item>
+
+        <item>Farmasi</item>
+        <item>Farmakokinetik</item>
+        <item>Efek samping</item>
+        <item>Farmakokinetik</item>
+        <item>Distribusi</item>
+        <item>Parental</item>
+        <item>Mylanta</item>
+        <item>Distribusi</item>
+        <item>Farmakokinetik</item>
+        <item>Farmakokinetik</item>
+
+        <item>Kalpanax</item>
+        <item>Obat keras</item>
+        <item>Obat keras</item>
+        <item>Promag </item>
+        <item>Panadol</item>
+        <item>Obat paten</item>
+        <item>Dosis toksik</item>
+        <item>Dosis toksik</item>
+        <item>Dosis toksik</item>
+        <item>Dosis toksik</item>
+
+        <item>g/kgbb</item>
+        <item>jenis kelamin</item>
+        <item>Sikap pasien terhadap obat dan dokter</item>
+        <item>Antibiotik</item>
+        <item>TBC</item>
+        <item>Sulfonamida</item>
+        <item>Antipeuretik</item>
+        <item>Analgesik lainnya (asetat, fenamat, propionat, enolat)</item>
+        <item>Pethidine</item>
+        <item>Anastesi infiltasi</item>
+
+        <item>Cemas</item>
+        <item>Antineurosis</item>
+        <item>Haloperidol</item>
+        <item>Haloperidol</item>
+        <item>Haloperidol</item>
+        <item>Psikosa akut</item>
+        <item>Vitamin B</item>
+        <item>Vitamin B</item>
+        <item>Vitamin B2</item>
+        <item>Vitamin B2</item>
+
+        <item>Salisilat</item>
+        <item>Nistatin</item>
+        <item>Mengurangi produksi asam lambung</item>
+        <item>Bronchodilator</item>
+        <item>Hipersekresi glukokortikoid</item>
+        <item>Asam benzoat</item>
+        <item>Penisilin G</item>
+        <item>Loperamid</item>
+        <item>Minosiklin</item>
+        <item>Laksativ</item>
+    </string-array>
+    <string-array name="jwbn_ujian_c">
+        <item>Bromheksin HCL</item>
+        <item>Diare</item>
+        <item>Analgetik</item>
+        <item>Sputumlitik</item>
+        <item>Sputumlitik</item>
+        <item>Diuretik</item>
+        <item>Antagonis kalsium</item>
+        <item>Antiangina</item>
+        <item>Khlorfeniramin maleat</item>
+        <item>Lengan bawah</item>
+
+        <item>Obat-obat atau zat-zat yang dapat memperlambat peristaltik usus sehingga massa feses lebih keras.</item>
+        <item>Perdarahan saluran cerna</item>
+        <item>Perdarahan saluran cerna</item>
+        <item>Laksansia</item>
+        <item>Mesna</item>
+        <item>Parsial dan komplit</item>
+        <item>Antasida</item>
+        <item>Metabolik</item>
+        <item>Primperan</item>
+        <item>Beta bloker </item>
+
+        <item>Anti kolinergik</item>
+        <item>Proteolitik</item>
+        <item>Merupakan hewan omnifora, sehingga metabolisme dan hormonal banyak persamaan dengan manusia</item>
+        <item>Obat kardiovaskular</item>
+        <item>Linkomisin</item>
+        <item>Hanya aktif terhadap beberapa jenis kuman saja</item>
+        <item>Menurunkan kemungkinan superinfeksi</item>
+        <item>Etanol </item>
+        <item>Codein, acetosal</item>
+        <item>Codein, acetosal</item>
+
+        <item>Batas keamanan sedikit</item>
+        <item>Psikosis</item>
+        <item>Efek samping obat</item>
+        <item>Hal-hal yang perlu diperhatikan pada saat menggunakan obat </item>
+        <item>Farmakokinetik</item>
+        <item>Oral</item>
+        <item>Tidak menimbulkan kekambuhan</item>
+        <item>Kesalahan menetapkan etiologi</item>
+        <item>Omeprazole</item>
+        <item>Anti serotonin</item>
+
+        <item>Amoksisilin</item>
+        <item>Osteoporosis</item>
+        <item>Susu banyak mengandung senyawa logam yang dapat memperlambat kelarutannya</item>
+        <item>Ammonium klorida</item>
+        <item>Promethazin</item>
+        <item>Eritromisin</item>
+        <item>Mikonazol</item>
+        <item>Rifampisin</item>
+        <item>Rektal</item>
+        <item>Uji klinis</item>
+
+        <item>Farmacoemik</item>
+        <item>Farmakologi molekuler</item>
+        <item>Indikasi dan Kontraindikasi </item>
+        <item>Farmakologi molekuler</item>
+        <item>Metabolisme</item>
+        <item>Topikal</item>
+        <item>Balsem</item>
+        <item>Metabolisme</item>
+        <item>Farmakologi molekuler</item>
+        <item>Farmakologi molekuler</item>
+
+        <item>Amoxilin</item>
+        <item>Obat bebas terbatas</item>
+        <item>Obat bebas terbatas</item>
+        <item>Tablet Paracetamol</item>
+        <item>Amoksisilin</item>
+        <item>Obat tradisional</item>
+        <item>Dosis lethal</item>
+        <item>Dosis lethal</item>
+        <item>Dosis lethal</item>
+        <item>Dosis lethal</item>
+
+        <item>ds/kgbb</item>
+        <item>Genetik</item>
+        <item>Kepatuhan pasien pada prosedur terapi. </item>
+        <item>Mikroba</item>
+        <item>Dengue fever</item>
+        <item>Ampisilin</item>
+        <item>Antihistamin</item>
+        <item>Obat pirai  </item>
+        <item>Metadon </item>
+        <item>Anastesi blok</item>
+
+        <item>Depresi</item>
+        <item>Antidepresi</item>
+        <item>Diazepam</item>
+        <item>Diazepam</item>
+        <item>Diazepam</item>
+        <item>Depresi</item>
+        <item>Vitamin K</item>
+        <item>Vitamin K</item>
+        <item>Vitamin B4</item>
+        <item>Vitamin B4</item>
+
+        <item>Para aminofenol</item>
+        <item>Mikonazol</item>
+        <item>Menghambat pompa proton</item>
+        <item>Ekspektoransia</item>
+        <item>Menghilangkan peradangan</item>
+        <item>Ketokonazol</item>
+        <item>Penisilinese</item>
+        <item>Kaolin</item>
+        <item>Oksitetrasiklin</item>
+        <item>Kardiaka</item>
+    </string-array>
+    <string-array name="jwbn_ujian_d">
+        <item>Captopril</item>
+        <item>Kolitis</item>
+        <item>Antitusif</item>
+        <item>Dekongestan</item>
+        <item>Dekongestan</item>
+        <item>Antasid</item>
+        <item>Antagonis histamin</item>
+        <item>Digitalis</item>
+        <item>Gliseril guaiakolat</item>
+        <item>Daerah perut</item>
+
+        <item>Obat-obat yang digunakan sebagai vitamin tambahan untuk melindungi, meringankan atau menghilangkan gangguan fungsi hati</item>
+        <item>Mual</item>
+        <item>Mual</item>
+        <item>Astringensia</item>
+        <item>Pirasetam</item>
+        <item>Total dan parsial</item>
+        <item>H2 bloker</item>
+        <item>Asidosis</item>
+        <item>Antasida</item>
+        <item>Antagonis kalsium </item>
+
+        <item>Antasida</item>
+        <item>Antasida</item>
+        <item>Warna kulit hewan tersebut mirip manusia</item>
+        <item>Obat penghambat sekresi asam lambung</item>
+        <item>Kloramfenikol</item>
+        <item>Contoh antibiotika jenis narrow-spektrum adalah sulfonamida dan ampisilin</item>
+        <item>Infeksi campuran</item>
+        <item>Alkohol 95%</item>
+        <item>Fenacetin, diklofenak</item>
+        <item>Fenacetin, diklofenak</item>
+
+        <item>Stadium 1 (analgesia): mulai pemberian obat sampai hilang nadi</item>
+        <item>Depresi</item>
+        <item>Peringatan</item>
+        <item>Perubahan efek suatu obat akibat pemakaian obat lain (interaksi obat-obat) atau oleh makanan, obat tradisional dan senyawa kimia lain.</item>
+        <item>Farmakodinamik</item>
+        <item>Intra peritonial</item>
+        <item>Tidak merugikan bagi manusia</item>
+        <item>Faktor farmakokinetik</item>
+        <item>Tetrasiklin</item>
+        <item>Anti histamin</item>
+
+        <item>Tetrasiklin</item>
+        <item>Hipogiklemi</item>
+        <item>Susu banyak mengandung senyawa logam yang akan merusak senyawa aktifnya </item>
+        <item>Efedrin HCl</item>
+        <item>Codein</item>
+        <item>Kloksasilin</item>
+        <item>Asiklovir</item>
+        <item>Sifalosporin</item>
+        <item>Oromukosal</item>
+        <item>Terapi kasual</item>
+
+        <item>Farmakodologi</item>
+        <item>Farmakoterapi</item>
+        <item>Toksisitas </item>
+        <item>Farmakoterapi</item>
+        <item>Ekskresi</item>
+        <item>Sublingual</item>
+        <item>Injeksi</item>
+        <item>Ekskresi</item>
+        <item>Farmakoterapi</item>
+        <item>Farmakoterapi</item>
+
+        <item>Amoxcicilin</item>
+        <item>Obat psikotropika</item>
+        <item>Obat psikotropika</item>
+        <item>Antibiotik </item>
+        <item>Panadol</item>
+        <item>Ramuan</item>
+        <item>Dosis minimal</item>
+        <item>Dosis minimal</item>
+        <item>Dosis minimal</item>
+        <item>Dosis minimal</item>
+
+        <item>mg/cmtb</item>
+        <item>Sensitivitas</item>
+        <item>Keyakinan pasien terhadap kesembuhan</item>
+        <item>Hopes</item>
+        <item>Hypertention</item>
+        <item>Sefalosporin</item>
+        <item>Antiinflamasi</item>
+        <item>Salisilat</item>
+        <item>Codein </item>
+        <item>Anastesi spinal</item>
+
+        <item>Konvulsi</item>
+        <item>Antihistamin</item>
+        <item>Paracetamol</item>
+        <item>Paracetamol</item>
+        <item>Fenitoin</item>
+        <item>Epilepsi</item>
+        <item>Vitamin E</item>
+        <item>Vitamin E</item>
+        <item>Vitamin B11</item>
+        <item>Vitamin B11</item>
+
+        <item>Pirazolon</item>
+        <item>Asiklovir</item>
+        <item>Mematikan bakteri pada tukak lambung</item>
+        <item>Kortikosteroid</item>
+        <item>Terapi kausal</item>
+        <item>Asam salisilat</item>
+        <item>Fenocin</item>
+        <item>Tanalbin</item>
+        <item>Klortetrasiklin</item>
+        <item>Antasida</item>
+    </string-array>
+    <string-array name="jwbn_ujian_e">
+        <item>Ambroxol HCL </item>
+        <item>Konstipasi</item>
+        <item>Mukolitik</item>
+        <item>Mukolitik</item>
+        <item>Mukolitik</item>
+        <item>Anti psikosis</item>
+        <item>Anti serotonin</item>
+        <item>Dekompensasi kordis</item>
+        <item>Kodein</item>
+        <item>Telapak tangan</item>
+
+        <item>Obat atau zat yang digunakan untuk menetralisir asam lambung</item>
+        <item>Hiperkalsemia</item>
+        <item>Hiperkalsemia</item>
+        <item>Demulsen</item>
+        <item>Dextrometrophan</item>
+        <item>Sistemik dan non sistemik</item>
+        <item>Inhibitor pompa proton</item>
+        <item>Anti racun</item>
+        <item>Clonidin</item>
+        <item>Diuretik </item>
+
+        <item>Digestan</item>
+        <item>Anti serotonin</item>
+        <item>Sifat hewan tersebut mirip manusia</item>
+        <item>Obat anti hipertensi</item>
+        <item>Tetrasiklin</item>
+        <item>Narrow-spektrum bekerj pada kuman gram positif dan gram negatif</item>
+        <item>Organisme penyebab infeksi adalah spesifik</item>
+        <item>Aldehid (formalin) </item>
+        <item>Diklofenak, ibuprofen</item>
+        <item>Diklofenak, ibuprofen</item>
+
+        <item>Bekerja lambat, induksi dan pemulihan kurang baik</item>
+        <item>Bipolar</item>
+        <item>Interaksi obat</item>
+        <item>Unsur dalam obat yang memiliki khasiat menyembuhkan penyakit </item>
+        <item>Farmasetik </item>
+        <item>Intra muskular</item>
+        <item>Selalu aman dalam kemasan apapun</item>
+        <item>Faktor jenis kelamin</item>
+        <item>Kotrimoksazol</item>
+        <item>Antagonis kalsium</item>
+
+        <item>CO amoksiklav</item>
+        <item>Nokturia</item>
+        <item>Susu banyak mengandung senyawa logam yang akan membentuk senyawa komplek inaktif yang sulit di absorbsi</item>
+        <item>Bromheksin HCl</item>
+        <item>Bromheksin</item>
+        <item>Gentamisin </item>
+        <item>Mebendazol</item>
+        <item>Amoksilin</item>
+        <item>Intra vaginal</item>
+        <item>Potensiasi</item>
+
+        <item>Farmakodenik</item>
+        <item>Farmakologi klinik</item>
+        <item>Metabolisme</item>
+        <item>Farmakologi klinik</item>
+        <item>Injeksi </item>
+        <item>Buccal </item>
+        <item>Epidural</item>
+        <item>Injeksi </item>
+        <item>Farmakologi klinik</item>
+        <item>Farmakologi klinik</item>
+
+        <item>Herocyn </item>
+        <item>Obat narkotika</item>
+        <item>Obat narkotika</item>
+        <item>Supertetra</item>
+        <item>Kalpanax</item>
+        <item>Medicinalis</item>
+        <item>Dosis paten</item>
+        <item>Dosis paten</item>
+        <item>Dosis paten</item>
+        <item>Dosis paten</item>
+
+        <item>g/cmtb</item>
+        <item>Lingkungan </item>
+        <item>Sebagian orang memiliki efek yang berlebihan, misalnya alergi.</item>
+        <item>Vaksin</item>
+        <item>Hipolipidemia</item>
+        <item>Gentamicin</item>
+        <item>Analgetik</item>
+        <item>Para Amino Fenol</item>
+        <item>Pyrazolon</item>
+        <item>Anastesi total</item>
+
+        <item>Kejang</item>
+        <item>Psikotogenik</item>
+        <item>Amitriptilin</item>
+        <item>Amitriptilin</item>
+        <item>Fenobarbital</item>
+        <item>Hypertensi</item>
+        <item>Vitamin D</item>
+        <item>Vitamin D</item>
+        <item>Vitamin B12</item>
+        <item>Vitamin B12</item>
+
+        <item>Pripionat</item>
+        <item>Mebendazol</item>
+        <item>Melindungi lambung</item>
+        <item>Antihistamin</item>
+        <item>Terapi alergi</item>
+        <item>Nistatin</item>
+        <item>Topcilin</item>
+        <item>Kaopectat</item>
+        <item>Interdoxin</item>
+        <item>Antitusiv</item>
+    </string-array>
+    <string-array name="kunci_ujian">
+        <item>D</item>
+        <item>E</item>
+        <item>E</item>
+        <item>E</item>
+        <item>E</item>
+        <item>C</item>
+        <item>C</item>
+        <item>A</item>
+        <item>D</item>
+        <item>D</item>
+
+        <item>A</item>
+        <item>B</item>
+        <item>B</item>
+        <item>B</item>
+        <item>B</item>
+        <item>E</item>
+        <item>E</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+
+        <item>E</item>
+        <item>B</item>
+        <item>B</item>
+        <item>D</item>
+        <item>A</item>
+        <item>C</item>
+        <item>D</item>
+        <item>C</item>
+        <item>A</item>
+        <item>E</item>
+
+        <item>A</item>
+        <item>C</item>
+        <item>B</item>
+        <item>B</item>
+        <item>C</item>
+        <item>C</item>
+        <item>A</item>
+        <item>E</item>
+        <item>C</item>
+        <item>E</item>
+
+        <item>B</item>
+        <item>E</item>
+        <item>E</item>
+        <item>A</item>
+        <item>E</item>
+        <item>B</item>
+        <item>B</item>
+        <item>A</item>
+        <item>E</item>
+        <item>C</item>
+
+        <item>A</item>
+        <item>A</item>
+        <item>E</item>
+        <item>B</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+
+        <item>E</item>
+        <item>C</item>
+        <item>B</item>
+        <item>D</item>
+        <item>C</item>
+        <item>A</item>
+        <item>D</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+
+        <item>A</item>
+        <item>E</item>
+        <item>E</item>
+        <item>B</item>
+        <item>B</item>
+        <item>A</item>
+        <item>A</item>
+        <item>D</item>
+        <item>E</item>
+        <item>B</item>
+
+        <item>A</item>
+        <item>D</item>
+        <item>C</item>
+        <item>E</item>
+        <item>E</item>
+        <item>D</item>
+        <item>B</item>
+        <item>A</item>
+        <item>B</item>
+        <item>A</item>
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>D</item>
+        <item>C</item>
+        <item>E</item>
+        <item>D</item>
+        <item>E</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="soal_tts_1">
+        <item>Proses niokimia yang merubah bentuk aslinya menjadi metabolit sehingga mudah diekskresi</item>
+        <item>Obat yang terbuat dari tanaman</item>
+        <item>Sebutan lain obat oles</item>
+        <item>Ilmu tentang bagaimana obat diperlakukan oleh tubuh</item>
+        <item>Mempelajari penggunaan obat untuk mengobati penyakit atau gejalanya</item>
+        <item>Pemberian obat di daerah dalam pipi</item>
+        <item>Ilmu yang mempelajari obat</item>
+        <item>Pemberian obat melalui bagian bawah lidah</item>
+        <item>Farmakokinetik juga dikenal dengan</item>
+        <item>Penyerapan obat dari tempat pemberian ke jaringan terget</item>
+        <item>Yang dipelajari dalam farmakodinamik</item>
+        <item>Pemberian obat secara oral</item>
+        <item>Proses membuang metabolit obat dari tubuh</item>
+        <item>Yang berperan mengubah kelarutan obat dalam lemak untuk diekskresikan melalui sistem biliaris</item>
+        <item>Ilmu yang mempelajari tentang pengaruh obat terhadap tubuh</item>
+    </string-array>
+    <string-array name="kunci_tts_1">
+        <item>Metabolisme</item>
+        <item>Obat Tradisional</item>
+        <item>Topikal</item>
+        <item>Farmakokinetik</item>
+        <item>Farmakoterapi</item>
+        <item>Buccal</item>
+        <item>Farmakologi</item>
+        <item>Sublingual</item>
+        <item>Adme</item>
+        <item>Absorpsi</item>
+        <item>Toksisitas</item>
+        <item>Enteral</item>
+        <item>Ekskresi</item>
+        <item>Enzim</item>
+        <item>Farmakodinamik</item>
+    </string-array>
+    <string-array name="soal_tts_2">
+        <item>Salah satu faktor yang mempengaruhi pemberian obat</item>
+        <item>Obat yang dapat digunakan secara bebas tanpa perlu resep dokter</item>
+        <item>Dosis obat yang diberikan melebihi dosis teterapeutik, sehingga dapat menyebabkan terjadinya keracunan obat</item>
+        <item>Obat psikotropika yang sering disalahgunakan</item>
+        <item>Sebutan obat yang namanya ditentukan oleh produsennya</item>
+        <item>Contoh obat bebas untuk maag</item>
+        <item>Contoh obat narkotika yang berbentuk daun</item>
+        <item>Obat dengan nama resmi yang telah ditetapkan dalam Farmakope Indonesia dan INN</item>
+        <item>Contoh sediaan obat cair </item>
+        <item>Disebut obat daftar “O”</item>
+        <item>Obat yang berbahaya, pemakainya harus diawasi dokter</item>
+        <item>Salah satu penggolongan obat berdasarkan keamanannya</item>
+        <item>Contoh obat keras </item>
+        <item>Dosis dengan Jumlah terkecil yg dibutuhkan penderita untuk satu kali pemberian untuk mendapatkan efek terapi</item>
+        <item>Contoh sediaan semi padat</item>
+        <item>Dosis yang menyebabkan kematian yang besarnya melebihi dosis toksik</item>
+        <item>Obat yang penggunaannya dalam jumlah tertentu aman, tetapi bila terlalu banyak akan menimbulkan efek kurang baik</item>
+    </string-array>
+    <string-array name="kunci_tts_2">
+        <item>Sensitifitas</item>
+        <item>Bebas</item>
+        <item>Toksik</item>
+        <item>Ectasy</item>
+        <item>Paten</item>
+        <item>Mylanta</item>
+        <item>Ganja</item>
+        <item>Generik</item>
+        <item>Infus</item>
+        <item>Narkotika</item>
+        <item>Keras</item>
+        <item>Psikotropika</item>
+        <item>Antibiotik</item>
+        <item>DosisMinimal</item>
+        <item>Salep</item>
+        <item>Lethal</item>
+        <item>BebasTerbatas</item>
+    </string-array>
+    <string-array name="soal_tts_3">
+        <item>Berkhasiat menghentikan pertumbuhan dan perbanyakan kuman</item>
+        <item>Hanya aktif terhadap beberapa jenis kuman saja .... spektrum</item>
+        <item>Zat kmia yang dihasilkan oleh bakteri/jamur yang dapat membasmi mikroba lain</item>
+        <item>Bekerja pada banyak kuman disebut .... spektrum</item>
+        <item>Fungsi antibiotik untuk .... infeksi</item>
+        <item>Penggolongan antibiotik berdasarkan toksiknya</item>
+        <item>Salah satu reaksi antibiotik dengan hopes</item>
+        <item>Resiko pemberian antibiotik kombinasi pada penderita TBC</item>
+    </string-array>
+    <string-array name="kunci_tts_3">
+        <item>Bakteriostatistik</item>
+        <item>Narrow</item>
+        <item>Antibiotik</item>
+        <item>Broad</item>
+        <item>Cegah</item>
+        <item>Bekterisida</item>
+        <item>Alergi</item>
+        <item>Resistensi</item>
+    </string-array>
+    <string-array name="soal_tts_4">
+        <item>Penyakit  sendi karena tertimbunnya asam urat (purin)  terutama di sendi, ginjal dan kulit karena kegagalan metabolisme purin dalam tubuh</item>
+        <item>Anastesi yang mempunyai efek maksimal 10&#8211;20 mnt, hilang 60 mnt</item>
+        <item>Digunakan pada anastesi jangka panjang, bisa sampai beberapa hari</item>
+        <item>Anastesi umum dengan potensi rendah, hanya dipakai saat induksi dan operasi ringan</item>
+        <item>Obat penghilang rasa sakit</item>
+        <item>Sediaan anastesi yang bisa menimbulkan euforia dan sering disalahgunakan</item>
+        <item>Contoh analgesik narkotik</item>
+        <item>Golongan obat analgesik tertua</item>
+        <item>Obat jenis Para Amino Fetol yang banyak digunakan karena tidak menimbulkan iritasi lambung</item>
+        <item>Proris termasuk jenis analgesik</item>
+        <item>Obat jenis Para Amino Fenol yang tidak digunakan lagi karena beracun</item>
+        <item>Jumlah stadium pada anastesi umum</item>
+        <item>Analgesik yang sering digunakan untuk radang sendi</item>
+        <item>Analgesik dan antiinflamasi lebih kuat dibanding antipiretik</item>
+        <item>Analgesik untuk nyeri ringan sampai sedang</item>
+        <item>Jenis analgesik yang dilarang dibanyak negara</item>
+        <item>Hilangnya sensasi tanpa hilang kesadaran</item>
+        <item>Analgesik dibagi menjadi</item>
+        <item>Anastesi untuk sunat</item>
+    </string-array>
+    <string-array name="kunci_tts_4">
+        <item>Pirai</item>
+        <item>Prokain</item>
+        <item>Bukavin</item>
+        <item>Gas</item>
+        <item>Analgesik</item>
+        <item>Kokain</item>
+        <item>Morphin</item>
+        <item>Salisilat</item>
+        <item>Asetaminofen</item>
+        <item>Ibuprofen</item>
+        <item>Fenasetin</item>
+        <item>Empat</item>
+        <item>Piroksikam</item>
+        <item>Ketoprofen</item>
+        <item>Nonnarkotik</item>
+        <item>Pyrazolon</item>
+        <item>Anastesi</item>
+        <item>Dua</item>
+        <item>Infiltasi</item>
+    </string-array>
+    <string-array name="soal_tts_5">
+        <item>Gangguan perasaan (afek) yang ditandai dg afek disforik (kehilangan kegembiraan atau gairah) disertai dg gejala-gejala lain</item>
+        <item>Bentukan fenitoin selain kapsul</item>
+        <item>Jenis obat yang digunakan untuk epilepsi</item>
+        <item>Jumlah penggolongan psikotropika</item>
+        <item>Antikonvulsi pertamakali ditemukan</item>
+        <item>Obat antineurosis</item>
+        <item>Obat antidepresi</item>
+        <item>Sebutan untuk rasa takut yang tidak jelas dan tidak didukung oleh situasi</item>
+        <item>Termasuk obat antipsikosis yang biasa digunakan untuk gangguan kejiwaan</item>
+        <item>Obat untuk penderita  psikosis hiperaktif yang tidak mungkin diberikan derifat fenotiazin (misalnya CPZ)</item>
+        <item>Merupakan obat utama hampir semua jenis epilepsi</item>
+    </string-array>
+    <string-array name="kunci_tts_5">
+        <item>DEPRESI</item>
+        <item>INJEKSI</item>
+        <item>ANTIKONVULSI</item>
+        <item>EMPAT</item>
+        <item>FENOBARBITAL</item>
+        <item>DIAZEPAM</item>
+        <item>AMITRIPTILIN</item>
+        <item>CEMAS</item>
+        <item>CPZ</item>
+        <item>HELOPERIDOL</item>
+        <item>FENITOIN</item>
+    </string-array>
+    <string-array name="soal_tts_6">
+        <item>Penyakit yang diakibatkan kekurangan vitamin B4</item>
+        <item>Sebutan untuk jumlah vitamin yang diperkirakan cukup untuk kebutuhan</item>
+        <item>Fungsi vitamin C</item>
+        <item>Akibat kekurangan vitamin C secara umum</item>
+        <item>Yang berfungsi sebagai Co-Enzym</item>
+        <item>Salah satu efek karena kekurangan vitamin B2</item>
+        <item>Vitamin yang larut dalam lemak</item>
+        <item>Penggolongan vitamin menjadi</item>
+        <item>Efek buruk apabila kekurangan atau kelebihan vitamin</item>
+    </string-array>
+    <string-array name="kunci_tts_6">
+        <item>PELLAGRA</item>
+        <item>RDA</item>
+        <item>ANTIOKSIDAN</item>
+        <item>SARIAWAN</item>
+        <item>VITAMIN</item>
+        <item>STOMATITIS</item>
+        <item>ADEK</item>
+        <item>DUA</item>
+        <item>KERACUNAN</item>
+    </string-array>
+    <string-array name="soal_tts_7">
+        <item>Pengobatan kausal, menghindari faktor pencetus, obat antikonvulasi</item>
+        <item>Ilmu yang mempelajari tentang bagaimana obat diperlakukan oleh tubuh</item>
+        <item>Ilmu yg mempelajari tentang pengaruh obat terhadap tubuh</item>
+        <item>Antikonvulsi yang pertama kali ditemukan</item>
+        <item>obat penghilang rasa sakit disebut</item>
+        <item>Situasi dimana aplikasi obat atau terapi tertentu tidak dianjurkan karena dapat meningkatkan resiko terhadap pasien tersebut</item>
+        <item>Ilmu yang mempelajari obat</item>
+        <item>Pemberian obat dengan memasukkan lewat intravena</item>
+        <item>Yang termasuk turunan penisilin narrow spektrum</item>
+        <item>sebutan lain orang gila</item>
+        <item>Anastesi yang digunakan pada pasien dengan tindakan sunat</item>
+        <item>Antibiotik yang tidak boleh diberikan kepada anak usia dibawah 8 tahun karena dapat menyebabkan gigi bercak-bercak coklat dan mudah berlubang</item>
+        <item>Suatu zat kimia yang berkhasiat dapat membasmi mikroba lain apabila digunakan dalam dosis tertentu, yang dihasilkan oleh bakteri ataupun jamur atau sintesa</item>
+        <item>Derivat penisilin dengan kerja spektrum luas</item>
+        <item>Antifungi yang termasuk golongan antibiotik</item>
+        <item>Obat yang cocok untuk mengatasi batuk produktif</item>
+        <item>Golongan obat pereda batuk sintetis dengan mekanisme kerja mirip kodein HCl</item>
+    </string-array>
+    <string-array name="kunci_tts_7">
+        <item>EPILEPSI</item>
+        <item>FARMAKOKINETIK</item>
+        <item>FARMAKODINAMIK</item>
+        <item>FENOBARBITAL</item>
+        <item>ANALGESIK</item>
+        <item>KONTRAINDIKASI</item>
+        <item>FARMAKOLOGI</item>
+        <item>PARENTAL</item>
+        <item>PENISILIN</item>
+        <item>PSIKOSIS</item>
+        <item>INFILTASI</item>
+        <item>TETRASIKLIN</item>
+        <item>ANTIBIOTIK</item>
+        <item>AMPISILIN</item>
+        <item>NISTATIN</item>
+        <item>BROMHEKSIN</item>
+        <item>DEKSTROMETORPHAN</item>
+    </string-array>
+</resources>
